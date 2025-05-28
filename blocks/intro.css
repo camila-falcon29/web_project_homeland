@@ -1,0 +1,44 @@
+.intro {
+  max-width: 830px;
+}
+.intro__title {
+  font-size: 54px;
+  margin-bottom: 40px;
+}
+.intro__subtitle {
+  margin: 0;
+  font-size: 24px;
+  margin-bottom: 10px;
+  max-width: 720px;
+}
+.intro__author {
+  margin: 0;
+  font-size: 24px;
+  margin-bottom: 32px;
+  text-align: end;
+  max-width: 720px;
+}
+.intro__description {
+  font-size: 16px;
+  max-width: 720px;
+  margin-bottom: 92px;
+}
+
+@media screen and (max-width: 1050px) {
+  .intro {
+    padding: 0 24px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .intro__title {
+    font-size: 45px;
+  }
+}
+@media screen and (max-width: 320px) {
+  .intro {
+    padding: 0 16px;
+  }
+  .intro__title {
+    font-size: 32px;
+  }
+}
