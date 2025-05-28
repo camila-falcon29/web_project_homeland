@@ -3,6 +3,6 @@
 
 }
 .footer__copyright {
-    margin-bottom: 24px;
-
+    margin: 0;
+    padding-bottom: 24px;
 }
