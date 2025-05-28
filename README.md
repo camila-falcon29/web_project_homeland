@@ -28,8 +28,7 @@ Quer saber mais ou conversar sobre esse projeto? Fique à vontade para entrar em
 
 - **Email**: [camilabelezacia@gmail.com](mailto:camilabelezacia@gmail.com)
 - **LinkedIn**: [linkedin](https://www.linkedin.com/in/camila-falc%C3%A3o-80919a30a//)
-- **Site**:[github-pages]
-
+- **Site**:[github-pages](https://camila-falcon29.github.io/web_project_homeland/)
 ---
 
 _✨ Siga meu portfólio e fique por dentro das próximas criações!🌐_
