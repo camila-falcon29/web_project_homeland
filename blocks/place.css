@@ -1,28 +1,25 @@
 .place {
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: auto minmax(0px, 460px) auto;
-  grid-template-areas: 
-  "title website" 
-  "img paragraph" 
-  "button paragraph";
   gap: 48px 40px;
-
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: repeat(4, auto);
+  grid-template-areas:
+    "title website"
+    "img paragraph"
+    "button paragraph"
+    ". paragraph";
 }
 .place__title {
+  grid-area: title;
   margin: 0;
   color: #ffffff;
   font-family: Inter;
   font-weight: 900;
   font-size: 72px;
   line-height: 76px;
-
-
-
-
-
 }
 .place__website {
+  grid-area: website;
   align-self: self-end;
 }
 .place__heading {
@@ -48,10 +45,13 @@
   margin: 0;
 }
 .place__img {
+  grid-area: img;
+  margin: 0;
   width: 100%;
   box-shadow: 10px 10px 25px 0px #00000080;
 }
 .place__paragraphs {
+  grid-area: paragraph;
   display: grid;
   font-family: Inter;
   font-weight: 400;
@@ -60,13 +60,12 @@
   letter-spacing: 0%;
   margin: 0;
   gap: 25px;
-  
 }
 .place__paragraph {
   margin: 0;
-
 }
 .place__button {
+  grid-area: button;
   width: 356px;
   max-height: 48px;
   border-radius: 4px;
@@ -78,11 +77,4 @@
   box-shadow: 10px 10px 25px 0px #00000080;
   text-align: center;
   padding: 16px 8px;
-  
-
-  
-}
-.div{
-  background-color: yellowgreen;
-  height: 100%;
 }
